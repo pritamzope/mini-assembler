@@ -66,9 +66,9 @@ defined in a file opttab.cpp
 <br/>
 Compile it using following command:-
 <br/><br/>
-
+<fieldset style="background-color:#ababab;">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$>  make
-
+</fieldset>
 <br/>
 it will create a minassm executable file.it requires two file names separated by -i and -o command line options.
 <br/>
@@ -76,7 +76,9 @@ it will create a minassm executable file.it requires two file names separated by
 &nbsp;&nbsp;&nbsp;&nbsp;-o :- Ouput lst filename;<br/>
 
 <br/>
+<fieldset style="background-color:#ababab;">
 &nbsp;&nbsp;&nbsp;&nbsp;e.g.:  ./minassm -i &lt;inputfile.asm&gt; -o lstfile.lst
+  </fieldset>
 <br/>
 <h2>Test :-</h2>
 <br/>
@@ -84,7 +86,9 @@ Run shell script file(run_tests.sh) to test the examples given.<br/>
 it takes an arguments of example file numbers such as 1, 2, 3 and 4.
 <br/>
 e.g.:<br/>
+<fieldset style="background-color:#ababab;">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$> sh run_tests.sh 1
+  </fieldset>
 <br/>
 
 
