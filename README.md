@@ -65,7 +65,7 @@ defined in a file opttab.cpp
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                G++ - GNU Compiler Collection with C++ Compiler
 <br/>
 Compile it using following command:-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h5> make </h5>
+<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; make </h5>
 <br/>
 it will create a minassm executable file.it requires two file names separated by -i and -o command line options.
 <br/>
@@ -73,7 +73,7 @@ it will create a minassm executable file.it requires two file names separated by
 &nbsp;&nbsp;&nbsp;&nbsp;-o :- Ouput lst filename;<br/>
 
 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;<h5> e.g.:  ./minassm -i &lt;inputfile.asm&gt; -o lstfile.lst </h5>
+<h5>&nbsp;&nbsp;&nbsp;&nbsp; e.g.:  ./minassm -i &lt;inputfile.asm&gt; -o lstfile.lst </h5>
 <br/>
 <h2>Test :-</h2>
 <br/>
@@ -81,7 +81,7 @@ Run shell script file(run_tests.sh) to test the examples given.<br/>
 it takes an arguments of example file numbers such as 1, 2, 3 and 4.
 <br/>
 e.g.:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h5> sh run_tests.sh 1 </h5>
+<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sh run_tests.sh 1 </h5>
 <br/>
 
 
