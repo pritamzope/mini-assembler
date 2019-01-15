@@ -3,7 +3,7 @@
 <h2>A simple translation of an intel x86 assembly language syntax into opcodes that generates an listing files.</h2>
 <br/>
 <br/>
-<strong>symtab.hpp :-</strong> This file contains the declarations of main symbol table and class SymbolTable to bind it.
+<strong>symtab.hpp :-</strong> This file contains the declarations of the main symbol table and class SymbolTable to bind it.
 <br/>
 <strong>symtab.cpp :-</strong> This file contains the implementation of declared functions in symtab.hpp.
 <br/>
@@ -20,7 +20,7 @@
 <strong>pass_2.cpp :-</strong> This file performs the pass 2 of the assembler
 <br/> 
 <br/>
-Pass 1 is performed by file pass_1.cpp,it reads the source code,validate it,generate addresses and write it to the intermediate file.
+Pass 1 is performed by file pass_1.cpp,it reads the source code,validate the declarartions and mnemonics by parsing the assembly language source code,generate addresses and write it to the intermediate file.
 the intermediate file contains four entries each separated by hash(#) sign.
 <br/><br/>
 
@@ -57,7 +57,7 @@ The supported instructions are:-<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	22) extern <br/>
 </br>
 defined in a file opttab.cpp
-
+More instructions can be added in file opttab.cpp file by adding an entry of mnemnic in table with required parameter such as how many parameters this mnemonic reuire, its opcode, is it register or memory etc.
 <br/>
 <h2>Compilation :-</h2>
 <br/>
