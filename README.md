@@ -56,8 +56,8 @@ The supported instructions are:-<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	21) global <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	22) extern <br/>
 </br>
-defined in a file opttab.cpp
-More instructions can be added in file opttab.cpp file by adding an entry of mnemnic in table with required parameter such as how many parameters this mnemonic reuire, its opcode, is it register or memory etc.
+defined in a file opttab.cpp<br/>
+More instructions can be added in opttab.cpp source file by adding an entry of mnemnic in table with required parameter such as how many parameters this mnemonic require, its opcode, is it register or memory etc.
 <br/>
 <h2>Compilation :-</h2>
 <br/>
