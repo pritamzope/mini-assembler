@@ -1,6 +1,6 @@
 <h1>Mini Assembler</h1>
 <br/>
-<h2>A simple translation of an intel x86 assembly language syntax into opcodes that generates an listing files.</h2>
+<h4>A simple translation of an intel x86 assembly language into opcodes that generates listing files.</h4>
 <br/>
 <br/>
 <strong>symtab.hpp :-</strong> This file contains the declarations of the main symbol table and class SymbolTable to bind it.
