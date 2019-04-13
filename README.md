@@ -23,9 +23,9 @@
 Pass 1 is performed by file pass_1.cpp,it reads the source code,validate the declarartions and mnemonics by parsing the assembly language source code,generate addresses and write it to the intermediate file.
 the intermediate file contains four entries each separated by hash(#) sign.
 <br/><br/>
-
+<pre>
 &nbsp;&nbsp;&nbsp;&nbsp;  &lt;linenumber&gt;#&lt;address&gt;#&lt;symbol&gt;#&lt;original_file_content&gt;#
-
+</pre>
 <br/>
 
 here symbol is the name of label defined in the .data or .bss section
@@ -53,7 +53,9 @@ it will create a minassm executable file.it requires two file names separated by
 &nbsp;&nbsp;&nbsp;&nbsp;-o :- Ouput lst filename;<br/>
 
 <br/>
+<pre>
 <h5>&nbsp;&nbsp;&nbsp;&nbsp; e.g.:  ./minassm -i &lt;inputfile.asm&gt; -o lstfile.lst </h5>
+</pre>
 <br/>
 <h2>Test :-</h2>
 <br/>
