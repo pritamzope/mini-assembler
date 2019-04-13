@@ -66,28 +66,27 @@ e.g.:<br/>
 <b>output</b>
 <br/>
 
-
-asm file = tests/example_4/example.asm
+<pre>asm file = tests/example_4/example.asm
 lst file = tests/example_4/example.lst
 
      1                                  
      2                                  section .bss
-     3 00000000 <res 00000008>              len2:resd 2
-     5 00000008 <res 00000028>              sssss : resd 10
+     3 00000000 &lt;res 00000008&gt;              len2:resd 2
+     5 00000008 &lt;res 00000028&gt;              sssss : resd 10
      6                                      aaaa resb 1
      7                                  
      8                                  section .data
-     9 00000000 68656C6C6F20776F72          mystr db "hello world, how are you ?",0
+     9 00000000 68656C6C6F20776F72          mystr db &quot;hello world, how are you ?&quot;,0
      9 00000009 6C642C20686F772061-
      9 00000012 726520796F75203F00
-    10 0000001B 7265733D256400              msg:db "res=%d",0
-    11                                       aa2  :   	db "this is string"
+    10 0000001B 7265733D256400              msg:db &quot;res=%d&quot;,0
+    11                                       aa2  :   	db &quot;this is string&quot;
     12 0000002B 200000004E00000002          arr       dd 32, 78  , 2,	32,	212134562
     12 00000034 00000020000000CA4E-
     12 00000022 AA20
     13 00000036 0C00220005004300            myar dw 12,34,5,67
     14                                       len dd 101
-    15 00000047 776865726520646F20          aa  :   	db "where do you live ?",0
+    15 00000047 776865726520646F20          aa  :   	db &quot;where do you live ?&quot;,0
     15 00000050 796F75206C69766520-
     15 0000003E 3F00
     16                                       aa34 dw 20
@@ -218,7 +217,4 @@ lst file = tests/example_4/example.lst
    139 000000C5 61                              popa
    140 000000C9 6683C004000000                  add eax,4
    141 000000C9 E2                              loop print1
-
-
-
-
+</pre>
