@@ -45,7 +45,7 @@ More instructions can be added in opttab.cpp source file by adding an entry of m
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                G++ - GNU Compiler Collection with C++ Compiler
 <br/>
 Compile it using following command:-
-<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; make </h5>
+<pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; make</pre>
 <br/>
 it will create a minassm executable file.it requires two file names separated by -i and -o command line options.
 <br/>
@@ -53,9 +53,7 @@ it will create a minassm executable file.it requires two file names separated by
 &nbsp;&nbsp;&nbsp;&nbsp;-o :- Ouput lst filename;<br/>
 
 <br/>
-<pre>
-<h5>&nbsp;&nbsp;&nbsp;&nbsp; e.g.:  ./minassm -i &lt;inputfile.asm&gt; -o lstfile.lst </h5>
-</pre>
+<pre>&nbsp;&nbsp;&nbsp;&nbsp; e.g.:  ./minassm -i &lt;inputfile.asm&gt; -o lstfile.lst </pre>
 <br/>
 <h2>Test :-</h2>
 <br/>
@@ -63,7 +61,7 @@ Run shell script file(run_tests.sh) to test the examples given.<br/>
 it takes an arguments of example file numbers such as 1, 2, 3 and 4.
 <br/>
 e.g.:<br/>
-<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sh run_tests.sh 4 </h5>
+<pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sh run_tests.sh 4 </pre>
 <br/>
 <b>output</b>
 <br/>
