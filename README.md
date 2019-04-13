@@ -33,7 +33,7 @@ here symbol is the name of label defined in the .data or .bss section
 Pass 2 reads this intermediate file,assemble the instructions by looking opcode in OPCodeTable and write it to lst file
 <br/>
 The supported instructions are:-<br/>
- &nbsp;inc, dec, mov, add, je, jmp, ja, jb, jae, jbe, jne, jle, pusha, pushad, popa, popad, push, pop, loop, cmp, global, extern 
+ &nbsp;<b>inc, dec, mov, add, je, jmp, ja, jb, jae, jbe, jne, jle, pusha, pushad, popa, popad, push, pop, loop, cmp, global, extern </b>
 <br/>
 </br>
 defined in a file opttab.cpp<br/>
